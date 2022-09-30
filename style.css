@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.back {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo {
+
+
+    float: left;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    opacity: 0.3;
+
+}
+
+.navbar {
+    display: flex;
+    /* margin-left: 1000px; */
+    /* justify-content: right; */
+    justify-content: space-around;
+}
+
+.home {
+    margin-left: 702px;
+    margin-top: 27px;
+    color: white;
+    text-shadow: 1px 1px white;
+}
+
+.region {
+    margin-top: 27px;
+    color: white;
+    text-shadow: 1px 1px white;
+}
+
+.about {
+    margin-top: 27px;
+    color: white;
+    text-shadow: 1px 1px white;
+}
+
+.menu {
+    margin-top: 27px;
+    color: white;
+    text-shadow: 2px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.child1 {
+    margin-left: 456px;
+    margin-top: 119px;
+    margin-bottom: 15px;
+    height: 230px;
+    width: 202px;
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.child2 {
+    margin-top: 119px;
+    margin-bottom: 15px;
+    height: 230px;
+    width: 202px;
+    background-color: red;
+    color: white;
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.child3 {
+    margin-left: 456px;
+    height: 230px;
+    width: 202px;
+    color: white;
+    background-color: red;
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.child4 {
+    height: 230px;
+    width: 202px;
+    background-color: red;
+    background-image: url(https://www.worldatlas.com/r/w1200/upload/a0/43/3b/shutterstock-796510987.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.para {
+    position: absolute;
+    top: 187px;
+    left: 100px;
+    color: white;
+}
+
+.para h1 {
+    font-size: 67px;
+}
+
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    position: absolute;
+    top: 449px;
+    left: 230px;
+    height: 36px;
+    width: 159px;
+}
+
+@media (max-width:700px) {
+    .container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: right;
+    }
+
+    .child1 {
+        margin-top: 241px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .child3 {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .child2 {
+        margin-top: 8px;
+        width: 100%;
+    }
+
+    .child4 {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .home {
+        margin-left: 0;
+    }
+
+    .para {
+        margin-top: -102px;
+    }
+
+    .para h1 {
+        font-size: 36px;
+    }
+
+    button {
+        position: absolute;
+        top: 238px;
+        left: 211px;
+        height: 35px;
+        width: 116px;
+    }
+}
